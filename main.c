@@ -15,6 +15,19 @@ void dfs(int v);
 
 int main()
 {
+    /*Ввод графа
+    int size;
+    printf("Введите количество вершин графа: ");
+    scanf("%d", size);
+    int graph[size][size];
+    printf("Enter elements:\n");
+    for(int i = 0; i < size; i++)
+    {
+        for(int j = 0; j < size; j++)
+        {
+            scanf("%d", graph[i][j]);
+        }
+    }*/
     //Подсчёт рёбер графа
     int ribs = 0;
     for(int i = 0; i < SIZE; i++)
